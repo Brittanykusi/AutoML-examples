@@ -1,0 +1,12 @@
+feature,weight
+intercept,-0.6735119520432957
+Timestamp,-0.1720902011885174
+Choose your gender,0.16141136847536475
+Age,-0.0741123818957553
+What is your course?,0.6541391618293365
+Your current year of Study,0.06054088949165102
+What is your CGPA?,-0.1588000286261695
+Marital status,1.2261573966649801
+Do you have Anxiety?,0.6177529242464075
+Do you have Panic attack?,0.3553719560926854
+Did you seek any specialist for a treatment?,0.5411155842351855

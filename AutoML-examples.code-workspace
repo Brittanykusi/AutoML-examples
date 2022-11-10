@@ -1,13 +1,8 @@
 {
 	"folders": [
 		{
+			"name": "AutoML-examples",
 			"path": "."
-		},
-		{
-			"path": "../../Downloads/content 3/regreAge"
-		},
-		{
-			"path": "../../Downloads/content 2/binDepression"
 		}
 	],
 	"settings": {}

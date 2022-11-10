@@ -1,0 +1,65 @@
+{
+    "columns": [
+        "Timestamp",
+        "Choose your gender",
+        "What is your course?",
+        "Your current year of Study",
+        "What is your CGPA?",
+        "Marital status",
+        "Do you have Anxiety?",
+        "Do you have Panic attack?",
+        "Did you seek any specialist for a treatment?",
+        "age"
+    ],
+    "rows": 75,
+    "cols": 10,
+    "target_is_numeric": false,
+    "columns_info": {
+        "Timestamp": [
+            "categorical",
+            "many_categories"
+        ],
+        "Choose your gender": [
+            "categorical",
+            "few_categories"
+        ],
+        "What is your course?": [
+            "categorical",
+            "many_categories"
+        ],
+        "Your current year of Study": [
+            "categorical",
+            "few_categories"
+        ],
+        "What is your CGPA?": [
+            "categorical",
+            "few_categories"
+        ],
+        "Marital status": [
+            "categorical",
+            "few_categories"
+        ],
+        "Do you have Anxiety?": [
+            "categorical",
+            "few_categories"
+        ],
+        "Do you have Panic attack?": [
+            "categorical",
+            "few_categories"
+        ],
+        "Did you seek any specialist for a treatment?": [
+            "categorical",
+            "few_categories"
+        ],
+        "age": [
+            "categorical",
+            "few_categories"
+        ]
+    },
+    "target_info": [
+        "convert_0_1"
+    ],
+    "n_features": 10,
+    "is_sample_weighted": false,
+    "n_classes": 2
+}

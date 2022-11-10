@@ -1,0 +1,366 @@
+{
+    "uid": "36425992-dc71-4c4d-a1b1-6e9446e1ede4",
+    "name": "5_Default_NeuralNetwork",
+    "preprocessing": [
+        {
+            "categorical": [
+                {
+                    "convert_method": "categorical_to_int",
+                    "convert_params": {
+                        "Timestamp": {
+                            "13/07/2020 10:07:32": 0,
+                            "13/07/2020 10:10:30": 1,
+                            "13/07/2020 10:11:26": 2,
+                            "13/07/2020 10:12:26": 3,
+                            "13/07/2020 10:33:47": 4,
+                            "13/07/2020 10:34:08": 5,
+                            "13/07/2020 11:46:13": 6,
+                            "13/07/2020 11:49:02": 7,
+                            "13/07/2020 13:57:11": 8,
+                            "13/07/2020 14:38:12": 9,
+                            "13/07/2020 19:08:32": 10,
+                            "13/07/2020 19:56:49": 11,
+                            "13/07/2020 21:21:42": 12,
+                            "18/07/2020 20:16:21": 13,
+                            "8/7/2020 12:02": 14,
+                            "8/7/2020 12:05": 15,
+                            "8/7/2020 12:35": 16,
+                            "8/7/2020 12:39": 17,
+                            "8/7/2020 12:41": 18,
+                            "8/7/2020 12:43": 19,
+                            "8/7/2020 12:52": 20,
+                            "8/7/2020 13:05": 21,
+                            "8/7/2020 13:13": 22,
+                            "8/7/2020 13:15": 23,
+                            "8/7/2020 13:58": 24,
+                            "8/7/2020 14:05": 25,
+                            "8/7/2020 14:29": 26,
+                            "8/7/2020 14:31": 27,
+                            "8/7/2020 14:43": 28,
+                            "8/7/2020 14:47": 29,
+                            "8/7/2020 14:56": 30,
+                            "8/7/2020 14:57": 31,
+                            "8/7/2020 14:58": 32,
+                            "8/7/2020 15:09": 33,
+                            "8/7/2020 15:12": 34,
+                            "8/7/2020 15:14": 35,
+                            "8/7/2020 15:18": 36,
+                            "8/7/2020 15:27": 37,
+                            "8/7/2020 15:37": 38,
+                            "8/7/2020 15:47": 39,
+                            "8/7/2020 16:08": 40,
+                            "8/7/2020 16:34": 41,
+                            "8/7/2020 17:05": 42,
+                            "8/7/2020 17:37": 43,
+                            "8/7/2020 17:50": 44,
+                            "8/7/2020 18:11": 45,
+                            "8/7/2020 19:05": 46,
+                            "8/7/2020 19:32": 47,
+                            "8/7/2020 20:36": 48,
+                            "9/7/2020 11:43": 49,
+                            "9/7/2020 18:24": 50,
+                            "9/7/2020 6:57": 51
+                        },
+                        "Choose your gender": {
+                            "Female": 0,
+                            "Male": 1
+                        },
+                        "What is your course?": {
+                            "ALA": 0,
+                            "BCS": 1,
+                            "BIT": 2,
+                            "Biomedical science": 3,
+                            "Biotechnology": 4,
+                            "CTS": 5,
+                            "Communication ": 6,
+                            "DIPLOMA TESL": 7,
+                            "ENM": 8,
+                            "Econs": 9,
+                            "Engine": 10,
+                            "Engineering": 11,
+                            "Fiqh fatwa ": 12,
+                            "Human Resources": 13,
+                            "Human Sciences ": 14,
+                            "IT": 15,
+                            "Islamic Education": 16,
+                            "KENMS": 17,
+                            "KIRKHS": 18,
+                            "KOE": 19,
+                            "Kirkhs": 20,
+                            "Koe": 21,
+                            "Kop": 22,
+                            "Law": 23,
+                            "MHSC": 24,
+                            "Malcom": 25,
+                            "Psychology": 26,
+                            "Usuluddin ": 27,
+                            "engin": 28,
+                            "psychology": 29
+                        },
+                        "Your current year of Study": {
+                            "Year 1": 0,
+                            "Year 2": 1,
+                            "Year 3": 2,
+                            "year 1": 3,
+                            "year 2": 4,
+                            "year 3": 5,
+                            "year 4": 6
+                        },
+                        "What is your CGPA?": {
+                            "0 - 1.99": 0,
+                            "2.00 - 2.49": 1,
+                            "2.50 - 2.99": 2,
+                            "3.00 - 3.49": 3,
+                            "3.50 - 4.00": 4
+                        },
+                        "Marital status": {
+                            "No": 0,
+                            "Yes": 1
+                        },
+                        "Do you have Anxiety?": {
+                            "No": 0,
+                            "Yes": 1
+                        },
+                        "Do you have Panic attack?": {
+                            "No": 0,
+                            "Yes": 1
+                        },
+                        "Did you seek any specialist for a treatment?": {
+                            "No": 0,
+                            "Yes": 1
+                        }
+                    },
+                    "columns": [
+                        "Timestamp",
+                        "Choose your gender",
+                        "What is your course?",
+                        "Your current year of Study",
+                        "What is your CGPA?",
+                        "Marital status",
+                        "Do you have Anxiety?",
+                        "Do you have Panic attack?",
+                        "Did you seek any specialist for a treatment?"
+                    ]
+                }
+            ],
+            "scale": [
+                {
+                    "scale": [
+                        14.583842313761247,
+                        0.4330127018922193,
+                        2.5682023411923995,
+                        8.692595958043599,
+                        1.5582851314892303,
+                        0.9202927661946517,
+                        0.34992710611188266,
+                        0.4883855118277623,
+                        0.45175395145262565,
+                        0.2851557039762734
+                    ],
+                    "mean": [
+                        25.660714285714285,
+                        0.25,
+                        20.392857142857142,
+                        10.714285714285714,
+                        2.767857142857143,
+                        3.2857142857142856,
+                        0.14285714285714285,
+                        0.39285714285714285,
+                        0.2857142857142857,
+                        0.08928571428571429
+                    ],
+                    "var": [
+                        212.68845663265301,
+                        0.1875,
+                        6.595663265306123,
+                        75.5612244897959,
+                        2.4282525510204076,
+                        0.8469387755102039,
+                        0.12244897959183677,
+                        0.23852040816326534,
+                        0.20408163265306126,
+                        0.08131377551020405
+                    ],
+                    "n_samples_seen": 56,
+                    "n_features_in": 10,
+                    "columns": [
+                        "Timestamp",
+                        "Choose your gender",
+                        "Age",
+                        "What is your course?",
+                        "Your current year of Study",
+                        "What is your CGPA?",
+                        "Marital status",
+                        "Do you have Anxiety?",
+                        "Do you have Panic attack?",
+                        "Did you seek any specialist for a treatment?"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "categorical_y": {
+                "No": 0,
+                "Yes": 1
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "Timestamp": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "Choose your gender": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "Age": [
+                        "scale_normal"
+                    ],
+                    "What is your course?": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "Your current year of Study": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "What is your CGPA?": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "Marital status": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "Do you have Anxiety?": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "Do you have Panic attack?": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ],
+                    "Did you seek any specialist for a treatment?": [
+                        "categorical_to_int",
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "categorical_to_int"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.0.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "b82842bb-8204-4d08-a862-713178fa57d1",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 5,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "Timestamp": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "Choose your gender": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "Age": [
+                    "scale_normal"
+                ],
+                "What is your course?": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "Your current year of Study": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "What is your CGPA?": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "Marital status": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "Do you have Anxiety?": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "Do you have Panic attack?": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ],
+                "Did you seek any specialist for a treatment?": [
+                    "categorical_to_int",
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "categorical_to_int"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "predDepression/X.data",
+            "y_path": "predDepression/y.data",
+            "results_path": "predDepression"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "dense_1_size": 32,
+            "dense_2_size": 16,
+            "learning_rate": 0.05,
+            "seed": 5,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "5_Default_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 360.0
+    },
+    "saved": [
+        "5_Default_NeuralNetwork/learner_fold_0.neural_network"
+    ],
+    "predictions_fname": "5_Default_NeuralNetwork/predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.5087319065317286,
+    "train_time": 1.162951946258545,
+    "is_stacked": false,
+    "threshold": 0.2538067229085648
+}

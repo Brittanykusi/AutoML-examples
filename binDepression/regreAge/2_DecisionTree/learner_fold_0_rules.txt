@@ -1,0 +1,8 @@
+if (Marital status <= 0.5) and (Your current year of Study <= 3.5) and (Your current year of Study > 1.5) then class: No (proba: 62.07%) | based on 29 samples
+
+if (Marital status <= 0.5) and (Your current year of Study > 3.5) then class: No (proba: 100.0%) | based on 12 samples
+
+if (Marital status > 0.5) then class: Yes (proba: 100.0%) | based on 8 samples
+
+if (Marital status <= 0.5) and (Your current year of Study <= 3.5) and (Your current year of Study <= 1.5) then class: No (proba: 100.0%) | based on 7 samples
+

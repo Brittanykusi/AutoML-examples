@@ -1,0 +1,11 @@
+feature,mean_importance
+Your current year of Study,-0.037019382418664835
+age,-0.035436385889699176
+Choose your gender,-0.024764409955276602
+Timestamp,-0.005895195390097296
+What is your course?,-0.001696721438005222
+What is your CGPA?,0.0075167462632225405
+Do you have Panic attack?,0.024800324442927256
+Do you have Anxiety?,0.03871746416975861
+Did you seek any specialist for a treatment?,0.051437431086514926
+Marital status,0.11294613228704631

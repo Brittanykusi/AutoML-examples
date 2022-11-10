@@ -1,0 +1,10 @@
+if (Marital status <= 0.5) and (What is your course? <= 22.5) and (Timestamp > 15.5) then class: No (proba: 92.86%) | based on 28 samples
+
+if (Marital status <= 0.5) and (What is your course? <= 22.5) and (Timestamp <= 15.5) then class: No (proba: 69.23%) | based on 13 samples
+
+if (Marital status > 0.5) then class: Yes (proba: 100.0%) | based on 8 samples
+
+if (Marital status <= 0.5) and (What is your course? > 22.5) and (Age <= 19.0) then class: Yes (proba: 100.0%) | based on 4 samples
+
+if (Marital status <= 0.5) and (What is your course? > 22.5) and (Age > 19.0) then class: No (proba: 66.67%) | based on 3 samples
+

@@ -1,0 +1,11 @@
+feature,shap_importance
+Marital status,1.251331890375439
+Choose your gender,0.9183714202103556
+Do you have Anxiety?,0.7049609306476312
+Did you seek any specialist for a treatment?,0.42340650551089437
+age,0.33805774399805805
+Do you have Panic attack?,0.23653406066076313
+What is your CGPA?,0.18831231817491048
+Timestamp,0.1413714509126149
+What is your course?,0.080787146998956
+Your current year of Study,0.04152686678870912
