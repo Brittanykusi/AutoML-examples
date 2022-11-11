@@ -1,25 +1,16 @@
 # AutoML-examples
 
-# run automl code
-2. Select a dataset of your own choosing (or select my modified version of SPARCS - https://raw.githubusercontent.com/hantswilliams/HHA-507-2022/main/autoML/datasets/data_sparcs.csv) 
+# Import needed materials
+1. Import packages
+2. Import csv file
+3. display table
 
-# experiment 1 - Binary
-3. Create two 'experiments' using the autoML package mljar-supervised 
-One that is focused around classification (binary or multi-class outcome variable)
-- Describe the two dependent variables (outcomes) for experiment 1 and experiment 2 
-    - Describe for each experiment: 
-        - What was the best performing model (please interpret (a) log-loss or RMSE between models, and (b) AUC) 
-        - How much better (? if any) did the model perform compared to baseline
+# Experiment 1 - Binary
+- Dependent variable: depression; whether the individual will be depressed or not.
+- Best performing model: Ensemble
+    - ensemble had an accuracy of 80% and baseline had an accuracy of 50%
 
-# experiment 2 - 
-One that is focused around regression (continuous outcome variable) 
-- Describe the two dependent variables (outcomes) for experiment 1 and experiment 2 
-    - Describe for each experiment: 
-        - What was the best performing model (please interpret (a) log-loss or RMSE between models, and (b) AUC) 
-        - How much better (? if any) did the model perform compared to baseline
-
-
-
-4. Include the output of the mljar-supervised output folder inside of the github repo (e.g., so there should be 2 folders - one for classification and one for regression) 
-
-    
+# Experiment 2 - regression
+- Dependent variable: age; whether the individual was on the older end of the psectrum or the younger end
+- Best performing model: Ensemble
+    - ensemble had an accuracy of 55% and baseline had an accuracy of 50%    
